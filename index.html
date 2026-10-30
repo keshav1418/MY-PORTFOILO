@@ -6,28 +6,22 @@
   <title>Keshav Manchikanti | Python Full Stack Developer</title>
   <meta name="description" content="Portfolio of Keshav Manchikanti - Python Full Stack Developer specializing in Python, Django, React.js, JavaScript, and REST APIs.">
   <meta name="keywords" content="Keshav Manchikanti, Python Developer, Full Stack Developer, React, Django, Web Developer, Portfolio">
-  
   <!-- Favicon -->
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
-  
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E⚡%3C/text%3E%3C/svg%3E">
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
-  
   <!-- Font Awesome Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-  
   <!-- Custom CSS -->
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
   <!-- Background decorative elements -->
   <div class="bg-gradient-orb orb-1"></div>
   <div class="bg-gradient-orb orb-2"></div>
   <div class="bg-gradient-orb orb-3"></div>
-
   <!-- Header / Navigation Bar -->
   <header class="navbar" id="navbar">
     <div class="nav-container">
@@ -37,7 +31,6 @@
         <span class="logo-accent">.dev</span>
         <span class="logo-bracket">/&gt;</span>
       </a>
-
       <!-- Desktop Nav Links -->
       <nav class="nav-menu" id="nav-menu">
         <ul class="nav-list">
@@ -46,10 +39,10 @@
           <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
           <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
           <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#resume" class="nav-link">Resume</a></li>
           <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
         </ul>
       </nav>
-
       <!-- Action items -->
       <div class="nav-actions">
         <!-- Theme Toggle Button -->
@@ -57,9 +50,7 @@
           <i class="fa-solid fa-moon moon-icon"></i>
           <i class="fa-solid fa-sun sun-icon"></i>
         </button>
-
         <a href="#contact" class="btn btn-primary nav-cta">Let's Talk</a>
-
         <!-- Mobile Menu Toggle Button -->
         <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle navigation menu">
           <span class="bar"></span>
@@ -69,7 +60,6 @@
       </div>
     </div>
   </header>
-
   <main>
     <!-- Hero Section -->
     <section class="hero-section" id="hero">
@@ -80,23 +70,19 @@
             <span class="pulse-dot"></span>
             <span>Open to Opportunities &bull; Fresher</span>
           </div>
-
           <h1 class="hero-title">
             Hi, I'm <span class="gradient-text">Keshav Manchikanti</span>
           </h1>
-
           <div class="hero-subtitle-wrapper">
             <span class="role-prefix">I am a </span>
             <span class="typed-text" id="typed-text"></span>
             <span class="cursor">&nbsp;</span>
           </div>
-
           <p class="hero-description">
             Passionate <strong>Python Full Stack Developer</strong> based in Hyderabad, India.
-            Equipped with strong expertise in Python, Django, React.js, and modern web standards. 
+            Equipped with strong expertise in Python, Django, React.js, and modern web standards.
             Focused on crafting responsive, scalable, and user-centric digital experiences.
           </p>
-
           <!-- Core Tech Stack Pills -->
           <div class="hero-tech-stack">
             <span class="tech-tag"><i class="fa-brands fa-python"></i> Python</span>
@@ -106,7 +92,6 @@
             <span class="tech-tag"><i class="fa-solid fa-database"></i> MySQL</span>
             <span class="tech-tag"><i class="fa-solid fa-network-wired"></i> REST APIs</span>
           </div>
-
           <!-- Hero Buttons -->
           <div class="hero-actions">
             <a href="#projects" class="btn btn-primary">
@@ -115,6 +100,9 @@
             <a href="#contact" class="btn btn-secondary">
               <i class="fa-regular fa-envelope"></i> Contact Me
             </a>
+            <a href="https://drive.google.com/file/d/1v-BYRVGOBdlLIY16ZihQQTUFh55aqc5Y/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+              <i class="fa-solid fa-download"></i> Resume
+            </a>
             <a href="https://www.linkedin.com/in/keshav-manchikanti-a738332b1" target="_blank" rel="noopener noreferrer" class="btn btn-outline" title="LinkedIn Profile">
               <i class="fa-brands fa-linkedin"></i> LinkedIn
             </a>
@@ -122,7 +110,6 @@
               <i class="fa-brands fa-github"></i> GitHub
             </a>
           </div>
-
           <!-- Hero Quick Highlights -->
           <div class="hero-quick-stats">
             <div class="stat-card">
@@ -137,11 +124,10 @@
             <div class="stat-divider"></div>
             <div class="stat-card">
               <span class="stat-num">Full Stack</span>
-              <span class="stat-label">Python & Web Dev Intern</span>
+              <span class="stat-label">Python &amp; Web Dev Intern</span>
             </div>
           </div>
         </div>
-
         <div class="hero-visual">
           <div class="code-window-card">
             <div class="window-header">
@@ -151,7 +137,11 @@
                 <span class="dot dot-green"></span>
               </div>
               <div class="window-title">developer_profile.py</div>
-              <div class="window-action"><i class="fa-solid fa-copy copy-code-btn" id="copy-code-btn" title="Copy snippet"></i></div>
+              <div class="window-action">
+                <button type="button" class="copy-btn copy-code-btn" id="copy-code-btn" title="Copy snippet" aria-label="Copy snippet">
+                  <i class="fa-solid fa-copy"></i>
+                </button>
+              </div>
             </div>
             <div class="window-body">
               <pre><code class="python-snippet"><span class="token-keyword">class</span> <span class="token-class">FullStackDeveloper</span>:
@@ -164,14 +154,12 @@
             <span class="token-string">"Python"</span>, <span class="token-string">"Django"</span>, <span class="token-string">"React"</span>,
             <span class="token-string">"JavaScript"</span>, <span class="token-string">"SQL"</span>, <span class="token-string">"APIs"</span>
         ]
-
     <span class="token-keyword">def</span> <span class="token-function">build_solution</span>(<span class="token-builtin">self</span>, idea):
         <span class="token-keyword">return</span> {
             <span class="token-string">"clean_architecture"</span>: <span class="token-keyword">True</span>,
             <span class="token-string">"scalable_backend"</span>: <span class="token-keyword">True</span>,
             <span class="token-string">"intuitive_ui"</span>: <span class="token-keyword">True</span>
         }
-
 <span class="token-comment"># Ready to contribute & innovate!</span>
 developer = <span class="token-class">FullStackDeveloper</span>()
 developer.build_solution(<span class="token-string">"Your Next Big Idea"</span>)</code></pre>
@@ -180,7 +168,6 @@ developer.build_solution(<span class="token-string">"Your Next Big Idea"</span>)
         </div>
       </div>
     </section>
-
     <!-- About Section -->
     <section class="section about-section" id="about">
       <div class="container">
@@ -189,7 +176,6 @@ developer.build_solution(<span class="token-string">"Your Next Big Idea"</span>)
           <h2 class="section-title">Driven by Curiosity, Powered by Code</h2>
           <div class="section-line"></div>
         </div>
-
         <div class="about-grid">
           <div class="about-card main-about">
             <div class="about-card-icon">
@@ -197,11 +183,11 @@ developer.build_solution(<span class="token-string">"Your Next Big Idea"</span>)
             </div>
             <h3>Who I Am</h3>
             <p>
-              I am a passionate <strong>Python Full Stack Developer</strong> with strong foundational and practical knowledge of modern web engineering. 
+              I am a passionate <strong>Python Full Stack Developer</strong> with strong foundational and practical knowledge of modern web engineering.
               My development philosophy combines clean, object-oriented back-end logic with intuitive, responsive front-end designs.
             </p>
             <p>
-              Having completed a hands-on Development Internship at <strong>ExcelR EdTech</strong> in collaboration with <strong>APSCHE</strong>, 
+              Having completed a hands-on Development Internship at <strong>ExcelR EdTech</strong> in collaboration with <strong>APSCHE</strong>,
               I have experience collaborating in Git-driven team environments, conducting peer code reviews, and delivering clean, maintainable software.
             </p>
             <div class="contact-info-list">
@@ -223,7 +209,6 @@ developer.build_solution(<span class="token-string">"Your Next Big Idea"</span>)
               </div>
             </div>
           </div>
-
           <div class="about-highlights-grid">
             <div class="highlight-card">
               <div class="highlight-icon"><i class="fa-solid fa-layer-group"></i></div>
@@ -232,34 +217,32 @@ developer.build_solution(<span class="token-string">"Your Next Big Idea"</span>)
             </div>
             <div class="highlight-card">
               <div class="highlight-icon"><i class="fa-solid fa-bolt"></i></div>
-              <h4>API & Database Savvy</h4>
+              <h4>API &amp; Database Savvy</h4>
               <p>Experienced in architecting RESTful APIs, handling asynchronous data flows, and optimizing SQL/MySQL queries.</p>
             </div>
             <div class="highlight-card">
               <div class="highlight-icon"><i class="fa-solid fa-code-branch"></i></div>
-              <h4>Git & Clean Code</h4>
+              <h4>Git &amp; Clean Code</h4>
               <p>Committed to OOP principles, version control workflows, agile communication, and automated testing practices.</p>
             </div>
             <div class="highlight-card">
               <div class="highlight-icon"><i class="fa-solid fa-graduation-cap"></i></div>
               <h4>Continuous Learner</h4>
-              <p>Certified in Cisco Python Essentials & Deloitte Tech Simulation; actively exploring cutting-edge tools.</p>
+              <p>Certified in Cisco Python Essentials &amp; Deloitte Tech Simulation; actively exploring cutting-edge tools.</p>
             </div>
           </div>
         </div>
       </div>
     </section>
-
     <!-- Skills Section -->
     <section class="section skills-section" id="skills">
       <div class="container">
         <div class="section-header">
           <span class="section-tag">Technical Competence</span>
-          <h2 class="section-title">Skills & Technologies</h2>
+          <h2 class="section-title">Skills &amp; Technologies</h2>
           <p class="section-subtitle">A breakdown of my technical stack across front-end, back-end, and database systems.</p>
           <div class="section-line"></div>
         </div>
-
         <div class="skills-grid">
           <!-- Skill Category: Backend & Core -->
           <div class="skill-category-card">
@@ -268,8 +251,8 @@ developer.build_solution(<span class="token-string">"Your Next Big Idea"</span>)
                 <i class="fa-brands fa-python"></i>
               </div>
               <div>
-                <h3>Back-End & Core</h3>
-                <span class="category-sub">Server-side logic & architecture</span>
+                <h3>Back-End &amp; Core</h3>
+                <span class="category-sub">Server-side logic &amp; architecture</span>
               </div>
             </div>
             <div class="skill-items">
@@ -303,7 +286,6 @@ developer.build_solution(<span class="token-string">"Your Next Big Idea"</span>)
               </div>
             </div>
           </div>
-
           <!-- Skill Category: Frontend -->
           <div class="skill-category-card">
             <div class="category-header">
@@ -312,7 +294,7 @@ developer.build_solution(<span class="token-string">"Your Next Big Idea"</span>)
               </div>
               <div>
                 <h3>Front-End Development</h3>
-                <span class="category-sub">Interactive & responsive client side</span>
+                <span class="category-sub">Interactive &amp; responsive client side</span>
               </div>
             </div>
             <div class="skill-items">
@@ -332,21 +314,20 @@ developer.build_solution(<span class="token-string">"Your Next Big Idea"</span>)
               </div>
               <div class="skill-item">
                 <div class="skill-info">
-                  <span class="skill-name"><i class="fa-brands fa-html5"></i> HTML5 & Semantic Web</span>
+                  <span class="skill-name"><i class="fa-brands fa-html5"></i> HTML5 &amp; Semantic Web</span>
                   <span class="skill-level">Expert</span>
                 </div>
                 <div class="skill-bar"><div class="skill-progress" style="width: 95%;"></div></div>
               </div>
               <div class="skill-item">
                 <div class="skill-info">
-                  <span class="skill-name"><i class="fa-brands fa-css3-alt"></i> CSS3 & SASS / SCSS</span>
+                  <span class="skill-name"><i class="fa-brands fa-css3-alt"></i> CSS3 &amp; SASS / SCSS</span>
                   <span class="skill-level">Advanced</span>
                 </div>
                 <div class="skill-bar"><div class="skill-progress" style="width: 90%;"></div></div>
               </div>
             </div>
           </div>
-
           <!-- Skill Category: Database & Tools -->
           <div class="skill-category-card">
             <div class="category-header">
@@ -354,8 +335,8 @@ developer.build_solution(<span class="token-string">"Your Next Big Idea"</span>)
                 <i class="fa-solid fa-database"></i>
               </div>
               <div>
-                <h3>Database & Workflow</h3>
-                <span class="category-sub">Data storage, versioning & team tools</span>
+                <h3>Database &amp; Workflow</h3>
+                <span class="category-sub">Data storage, versioning &amp; team tools</span>
               </div>
             </div>
             <div class="skill-items">
@@ -368,21 +349,21 @@ developer.build_solution(<span class="token-string">"Your Next Big Idea"</span>)
               </div>
               <div class="skill-item">
                 <div class="skill-info">
-                  <span class="skill-name"><i class="fa-brands fa-git-alt"></i> Git & GitHub Version Control</span>
+                  <span class="skill-name"><i class="fa-brands fa-git-alt"></i> Git &amp; GitHub Version Control</span>
                   <span class="skill-level">Advanced</span>
                 </div>
                 <div class="skill-bar"><div class="skill-progress" style="width: 88%;"></div></div>
               </div>
               <div class="skill-item">
                 <div class="skill-info">
-                  <span class="skill-name"><i class="fa-solid fa-code-compare"></i> Code Reviews & Debugging</span>
+                  <span class="skill-name"><i class="fa-solid fa-code-compare"></i> Code Reviews &amp; Debugging</span>
                   <span class="skill-level">Proficient</span>
                 </div>
                 <div class="skill-bar"><div class="skill-progress" style="width: 84%;"></div></div>
               </div>
               <div class="skill-item">
                 <div class="skill-info">
-                  <span class="skill-name"><i class="fa-solid fa-brain"></i> Problem Solving & Algorithms</span>
+                  <span class="skill-name"><i class="fa-solid fa-brain"></i> Problem Solving &amp; Algorithms</span>
                   <span class="skill-level">Advanced</span>
                 </div>
                 <div class="skill-bar"><div class="skill-progress" style="width: 86%;"></div></div>
@@ -390,18 +371,15 @@ developer.build_solution(<span class="token-string">"Your Next Big Idea"</span>)
             </div>
           </div>
         </div>
-
         <!-- Skill Badges Cloud -->
         <div class="skills-cloud">
           <!-- Programming Languages -->
           <span class="skill-pill"><i class="fa-brands fa-python"></i> Python 3</span>
           <span class="skill-pill"><i class="fa-brands fa-js"></i> JavaScript (ES6+)</span>
-
           <!-- Back-End & APIs -->
           <span class="skill-pill"><i class="fa-solid fa-server"></i> Django</span>
           <span class="skill-pill"><i class="fa-solid fa-flask"></i> Flask</span>
-          <span class="skill-pill"><i class="fa-solid fa-network-wired"></i> RESTful API Design & Integration</span>
-
+          <span class="skill-pill"><i class="fa-solid fa-network-wired"></i> RESTful API Design &amp; Integration</span>
           <!-- Front-End -->
           <span class="skill-pill"><i class="fa-brands fa-html5"></i> HTML5</span>
           <span class="skill-pill"><i class="fa-brands fa-css3-alt"></i> CSS3</span>
@@ -409,16 +387,13 @@ developer.build_solution(<span class="token-string">"Your Next Big Idea"</span>)
           <span class="skill-pill"><i class="fa-brands fa-bootstrap"></i> Bootstrap</span>
           <span class="skill-pill"><i class="fa-brands fa-sass"></i> SASS</span>
           <span class="skill-pill"><i class="fa-solid fa-mobile-screen"></i> Responsive Design</span>
-
           <!-- Databases -->
           <span class="skill-pill"><i class="fa-solid fa-database"></i> MySQL</span>
           <span class="skill-pill"><i class="fa-solid fa-database"></i> SQL</span>
-
           <!-- Generative AI & LLMs -->
           <span class="skill-pill"><i class="fa-solid fa-wand-magic-sparkles"></i> Prompt-Driven Automation</span>
           <span class="skill-pill"><i class="fa-solid fa-robot"></i> LLM-Integrated Applications</span>
           <span class="skill-pill"><i class="fa-solid fa-diagram-project"></i> AI Agent Workflows (n8n)</span>
-
           <!-- Tools & Practices -->
           <span class="skill-pill"><i class="fa-brands fa-git-alt"></i> Git</span>
           <span class="skill-pill"><i class="fa-brands fa-github"></i> GitHub</span>
@@ -427,7 +402,6 @@ developer.build_solution(<span class="token-string">"Your Next Big Idea"</span>)
           <span class="skill-pill"><i class="fa-solid fa-diagram-project"></i> n8n</span>
           <span class="skill-pill"><i class="fa-solid fa-microchip"></i> AI Coding Assistants</span>
           <span class="skill-pill"><i class="fa-solid fa-check-double"></i> Clean Code</span>
-          
           <!-- Soft Skills -->
           <span class="skill-pill"><i class="fa-solid fa-comments"></i> English Communication</span>
           <span class="skill-pill"><i class="fa-solid fa-magnifying-glass"></i> Attention to Detail</span>
@@ -438,7 +412,6 @@ developer.build_solution(<span class="token-string">"Your Next Big Idea"</span>)
         </div>
       </div>
     </section>
-
     <!-- Experience Section -->
     <section class="section experience-section" id="experience">
       <div class="container">
@@ -447,7 +420,6 @@ developer.build_solution(<span class="token-string">"Your Next Big Idea"</span>)
           <h2 class="section-title">Work Experience</h2>
           <div class="section-line"></div>
         </div>
-
         <div class="timeline">
           <!-- Timeline Item: ExcelR EdTech -->
           <div class="timeline-item">
@@ -467,7 +439,6 @@ developer.build_solution(<span class="token-string">"Your Next Big Idea"</span>)
                   <span class="timeline-duration">(3 months)</span>
                 </div>
               </div>
-
               <div class="timeline-body">
                 <ul class="timeline-points">
                   <li>
@@ -487,12 +458,11 @@ developer.build_solution(<span class="token-string">"Your Next Big Idea"</span>)
                     <span>Actively participated in daily problem-solving standups and peer code reviews, ensuring the delivery of scalable, maintainable, and production-ready code.</span>
                   </li>
                 </ul>
-
                 <div class="timeline-tags">
                   <span class="tag">Python</span>
                   <span class="tag">OOP</span>
                   <span class="tag">Full-Stack Architecture</span>
-                  <span class="tag">Git & GitHub</span>
+                  <span class="tag">Git &amp; GitHub</span>
                   <span class="tag">Code Reviews</span>
                   <span class="tag">APSCHE Initiative</span>
                 </div>
@@ -502,7 +472,6 @@ developer.build_solution(<span class="token-string">"Your Next Big Idea"</span>)
         </div>
       </div>
     </section>
-
     <!-- Projects Section -->
     <section class="section projects-section" id="projects">
       <div class="container">
@@ -512,18 +481,15 @@ developer.build_solution(<span class="token-string">"Your Next Big Idea"</span>)
           <p class="section-subtitle">Real-world applications built with Python, Flask, Django, React, MySQL, and machine learning.</p>
           <div class="section-line"></div>
         </div>
-
         <!-- Project Filter Buttons -->
         <div class="project-filters">
           <button class="filter-btn active" data-filter="all">All Projects</button>
           <button class="filter-btn" data-filter="fullstack">Full Stack</button>
-          <button class="filter-btn" data-filter="python">Python & Django</button>
+          <button class="filter-btn" data-filter="python">Python &amp; Django</button>
           <button class="filter-btn" data-filter="frontend">Frontend / React</button>
         </div>
-
         <!-- Projects Grid -->
         <div class="projects-grid">
-
           <!-- Project 1: AI Call Assistant -->
           <div class="project-card" data-category="python">
             <div class="project-image-wrapper">
@@ -535,11 +501,11 @@ developer.build_solution(<span class="token-string">"Your Next Big Idea"</span>)
               </div>
               <div class="project-overlay">
                 <a href="#contact" class="overlay-link" title="Request Live Demo"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="overlay-link" title="Source Code"><i class="fa-brands fa-github"></i></a>
+                <a href="https://github.com/keshavmanchikanti" target="_blank" rel="noopener noreferrer" class="overlay-link" title="Source Code"><i class="fa-brands fa-github"></i></a>
               </div>
             </div>
             <div class="project-content">
-              <div class="project-category-tag">Voice-Based Sales & Booking Agent</div>
+              <div class="project-category-tag">Voice-Based Sales &amp; Booking Agent</div>
               <h3 class="project-title">AI Call Assistant</h3>
               <p class="project-description">
                 A Python/Flask backend integrated with the Twilio API to automate outbound customer support and demo-booking calls, with multilingual (English and Telugu) AI conversations and RESTful endpoints connecting external services.
@@ -552,7 +518,7 @@ developer.build_solution(<span class="token-string">"Your Next Big Idea"</span>)
                 <span>REST APIs</span>
               </div>
               <div class="project-footer">
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="project-link">
+                <a href="https://github.com/keshavmanchikanti" target="_blank" rel="noopener noreferrer" class="project-link">
                   <i class="fa-brands fa-github"></i> Codebase
                 </a>
                 <a href="#contact" class="project-link highlight-link">
@@ -561,9 +527,8 @@ developer.build_solution(<span class="token-string">"Your Next Big Idea"</span>)
               </div>
             </div>
           </div>
-
           <!-- Project 2: Coffee Shop Web Application -->
-          <div class="project-card" data-category="fullstack frontend python">
+          <div class="project-card" data-category="fullstack">
             <div class="project-image-wrapper">
               <div class="project-mockup gradient-mockup-2">
                 <div class="mockup-content">
@@ -572,8 +537,8 @@ developer.build_solution(<span class="token-string">"Your Next Big Idea"</span>)
                 </div>
               </div>
               <div class="project-overlay">
-                <a href="#contact" class="overlay-link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="overlay-link"><i class="fa-brands fa-github"></i></a>
+                <a href="#contact" class="overlay-link" title="Request Live Demo"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                <a href="https://github.com/keshavmanchikanti" target="_blank" rel="noopener noreferrer" class="overlay-link" title="Source Code"><i class="fa-brands fa-github"></i></a>
               </div>
             </div>
             <div class="project-content">
@@ -587,10 +552,10 @@ developer.build_solution(<span class="token-string">"Your Next Big Idea"</span>)
                 <span>Django</span>
                 <span>Python</span>
                 <span>SQL</span>
-                <span>HTML5 & CSS3</span>
+                <span>HTML5 &amp; CSS3</span>
               </div>
               <div class="project-footer">
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="project-link">
+                <a href="https://github.com/keshavmanchikanti" target="_blank" rel="noopener noreferrer" class="project-link">
                   <i class="fa-brands fa-github"></i> Codebase
                 </a>
                 <a href="#contact" class="project-link highlight-link">
@@ -599,7 +564,6 @@ developer.build_solution(<span class="token-string">"Your Next Big Idea"</span>)
               </div>
             </div>
           </div>
-
           <!-- Project 3: Network Traffic Anomaly Detection System -->
           <div class="project-card" data-category="python">
             <div class="project-image-wrapper">
@@ -610,8 +574,8 @@ developer.build_solution(<span class="token-string">"Your Next Big Idea"</span>)
                 </div>
               </div>
               <div class="project-overlay">
-                <a href="#contact" class="overlay-link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="overlay-link"><i class="fa-brands fa-github"></i></a>
+                <a href="#contact" class="overlay-link" title="Request Live Demo"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                <a href="https://github.com/keshavmanchikanti" target="_blank" rel="noopener noreferrer" class="overlay-link" title="Source Code"><i class="fa-brands fa-github"></i></a>
               </div>
             </div>
             <div class="project-content">
@@ -628,7 +592,7 @@ developer.build_solution(<span class="token-string">"Your Next Big Idea"</span>)
                 <span>SMOTE</span>
               </div>
               <div class="project-footer">
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="project-link">
+                <a href="https://github.com/keshavmanchikanti" target="_blank" rel="noopener noreferrer" class="project-link">
                   <i class="fa-brands fa-github"></i> Codebase
                 </a>
                 <a href="#contact" class="project-link highlight-link">
@@ -637,9 +601,8 @@ developer.build_solution(<span class="token-string">"Your Next Big Idea"</span>)
               </div>
             </div>
           </div>
-
           <!-- Project 4: AI Tool Library -->
-          <div class="project-card" data-category="fullstack frontend">
+          <div class="project-card" data-category="fullstack">
             <div class="project-image-wrapper">
               <div class="project-mockup gradient-mockup-1">
                 <div class="mockup-content">
@@ -648,8 +611,8 @@ developer.build_solution(<span class="token-string">"Your Next Big Idea"</span>)
                 </div>
               </div>
               <div class="project-overlay">
-                <a href="#contact" class="overlay-link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="overlay-link"><i class="fa-brands fa-github"></i></a>
+                <a href="#contact" class="overlay-link" title="Request Live Demo"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                <a href="https://github.com/keshavmanchikanti" target="_blank" rel="noopener noreferrer" class="overlay-link" title="Source Code"><i class="fa-brands fa-github"></i></a>
               </div>
             </div>
             <div class="project-content">
@@ -667,7 +630,7 @@ developer.build_solution(<span class="token-string">"Your Next Big Idea"</span>)
                 <span>HTML5</span>
               </div>
               <div class="project-footer">
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="project-link">
+                <a href="https://github.com/keshavmanchikanti" target="_blank" rel="noopener noreferrer" class="project-link">
                   <i class="fa-brands fa-github"></i> Codebase
                 </a>
                 <a href="#contact" class="project-link highlight-link">
@@ -676,7 +639,6 @@ developer.build_solution(<span class="token-string">"Your Next Big Idea"</span>)
               </div>
             </div>
           </div>
-
           <!-- Project 5: Portfolio Website -->
           <div class="project-card" data-category="frontend">
             <div class="project-image-wrapper">
@@ -687,8 +649,8 @@ developer.build_solution(<span class="token-string">"Your Next Big Idea"</span>)
                 </div>
               </div>
               <div class="project-overlay">
-                <a href="#contact" class="overlay-link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="overlay-link"><i class="fa-brands fa-github"></i></a>
+                <a href="#contact" class="overlay-link" title="Request Live Demo"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                <a href="https://github.com/keshavmanchikanti" target="_blank" rel="noopener noreferrer" class="overlay-link" title="Source Code"><i class="fa-brands fa-github"></i></a>
               </div>
             </div>
             <div class="project-content">
@@ -704,7 +666,7 @@ developer.build_solution(<span class="token-string">"Your Next Big Idea"</span>)
                 <span>Responsive Design</span>
               </div>
               <div class="project-footer">
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="project-link">
+                <a href="https://github.com/keshavmanchikanti" target="_blank" rel="noopener noreferrer" class="project-link">
                   <i class="fa-brands fa-github"></i> Codebase
                 </a>
                 <a href="#contact" class="project-link highlight-link">
@@ -713,25 +675,21 @@ developer.build_solution(<span class="token-string">"Your Next Big Idea"</span>)
               </div>
             </div>
           </div>
-
         </div>
       </div>
     </section>
-
     <!-- Education & Certifications Section -->
     <section class="section edu-cert-section" id="education">
       <div class="container">
         <div class="section-header">
-          <span class="section-tag">Credentials & Qualifications</span>
-          <h2 class="section-title">Education & Certifications</h2>
+          <span class="section-tag">Credentials &amp; Qualifications</span>
+          <h2 class="section-title">Education &amp; Certifications</h2>
           <div class="section-line"></div>
         </div>
-
         <div class="edu-cert-grid">
           <!-- Education Column -->
           <div class="edu-column">
             <h3 class="column-title"><i class="fa-solid fa-user-graduate"></i> Formal Education</h3>
-            
             <div class="credential-card edu-card">
               <div class="credential-header">
                 <div class="credential-icon">
@@ -750,16 +708,14 @@ developer.build_solution(<span class="token-string">"Your Next Big Idea"</span>)
                   <span><i class="fa-solid fa-location-dot"></i> Nellore, Andhra Pradesh</span>
                 </div>
                 <p class="credential-desc">
-                  Focused coursework on Data Structures & Algorithms, Object-Oriented Software Engineering, Database Management Systems (DBMS), Web Technologies, and Operating Systems.
+                  Focused coursework on Data Structures &amp; Algorithms, Object-Oriented Software Engineering, Database Management Systems (DBMS), Web Technologies, and Operating Systems.
                 </p>
               </div>
             </div>
           </div>
-
           <!-- Certifications Column -->
           <div class="cert-column">
             <h3 class="column-title"><i class="fa-solid fa-award"></i> Professional Certifications</h3>
-
             <div class="certifications-list">
               <!-- Cert 1 -->
               <div class="credential-card cert-card">
@@ -771,10 +727,28 @@ developer.build_solution(<span class="token-string">"Your Next Big Idea"</span>)
                     <span class="cert-issuer">Deloitte Australia &bull; Forage</span>
                     <h4>Technology Job Simulation</h4>
                     <p>Demonstrated practical competencies in technology consulting, systems architecture evaluation, and technology solution analysis.</p>
+                    <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/9PBTqmSxAf6zZTseP/udmxiyHeqYQLkTPvf_9PBTqmSxAf6zZTseP_omyAWBRXvSQTg7xsx_1755095644476_completion_certificate.pdf" target="_blank" rel="noopener noreferrer" class="cert-link">
+                      <i class="fa-solid fa-arrow-up-right-from-square"></i> View Credential
+                    </a>
                   </div>
                 </div>
               </div>
-
+              <!-- Cert: Udemy Full Stack Web Development -->
+              <div class="credential-card cert-card">
+                <div class="cert-item-inner">
+                  <div class="cert-icon-box cert-udemy">
+                    <i class="fa-solid fa-laptop-code"></i>
+                  </div>
+                  <div class="cert-content">
+                    <span class="cert-issuer">Udemy</span>
+                    <h4>Full Stack Web Development</h4>
+                    <p>Hands-on course covering front-end and back-end web development, from building responsive interfaces to server-side logic and databases.</p>
+                    <a href="https://www.udemy.com/certificate/UC-41eba3ba-9e5d-4204-a54e-acf00e10e862/" target="_blank" rel="noopener noreferrer" class="cert-link">
+                      <i class="fa-solid fa-arrow-up-right-from-square"></i> View Credential
+                    </a>
+                  </div>
+                </div>
+              </div>
               <!-- Cert 2 -->
               <div class="credential-card cert-card">
                 <div class="cert-item-inner">
@@ -782,13 +756,15 @@ developer.build_solution(<span class="token-string">"Your Next Big Idea"</span>)
                     <i class="fa-brands fa-python"></i>
                   </div>
                   <div class="cert-content">
-                    <span class="cert-issuer">Python Institute &bull; Cisco Networking Academy</span>
+                    <span class="cert-issuer">Cisco Networking Academy &bull; Python Institute</span>
                     <h4>Python Essentials 1</h4>
                     <p>Core programming fundamentals, syntax, control flows, data collections, and foundational algorithmic problem solving.</p>
+                    <a href="https://www.credly.com/badges/79df93f1-d0db-4ae0-a63f-1a22257fd745/linked_in_profile" target="_blank" rel="noopener noreferrer" class="cert-link">
+                      <i class="fa-solid fa-arrow-up-right-from-square"></i> View Credential
+                    </a>
                   </div>
                 </div>
               </div>
-
               <!-- Cert 3 -->
               <div class="credential-card cert-card">
                 <div class="cert-item-inner">
@@ -799,10 +775,61 @@ developer.build_solution(<span class="token-string">"Your Next Big Idea"</span>)
                     <span class="cert-issuer">Python Institute &bull; Cisco Networking Academy</span>
                     <h4>Python Essentials 2</h4>
                     <p>Advanced Python techniques, Object-Oriented Programming (classes, inheritance, polymorphism), modules, packages, and exception handling.</p>
+                    <a href="https://www.credly.com/badges/190c68a8-bbc2-46d2-ba10-ba5adf69b6b2/linked_in_profile" target="_blank" rel="noopener noreferrer" class="cert-link">
+                      <i class="fa-solid fa-arrow-up-right-from-square"></i> View Credential
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Cert 4: Claude 101 -->
+              <div class="credential-card cert-card">
+                <div class="cert-item-inner">
+                  <div class="cert-icon-box cert-claude">
+                    <i class="fa-solid fa-asterisk"></i>
+                  </div>
+                  <div class="cert-content">
+                    <span class="cert-issuer">Anthropic &bull; Claude Academy</span>
+                    <h4>Claude 101</h4>
+                    <p>Foundational course on working effectively with Claude, Anthropic's AI assistant.</p>
+                    <a href="https://academy.claude.com/verify/e2adaefd5498f5e0a714a25c62eecc26" target="_blank" rel="noopener noreferrer" class="cert-link">
+                      <i class="fa-solid fa-arrow-up-right-from-square"></i> View Credential
+                    </a>
                   </div>
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Resume Section -->
+    <section class="section resume-section" id="resume">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Resume</span>
+          <h2 class="section-title">Download My Resume</h2>
+          <p class="section-subtitle">A one-page summary of my skills, internship, projects, and certifications.</p>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="resume-card">
+          <div class="resume-icon"><i class="fa-regular fa-file-pdf"></i></div>
+          <div class="resume-info">
+            <h3>Keshav Manchikanti</h3>
+            <p>Python Developer | Full-Stack &amp; AI-Assisted Development</p>
+            <div class="resume-meta">
+              <span><i class="fa-solid fa-file"></i> PDF</span>
+              <span><i class="fa-solid fa-graduation-cap"></i> B.Tech CSE, 2026</span>
+            </div>
+          </div>
+          <div class="resume-actions">
+            <a href="https://drive.google.com/file/d/1v-BYRVGOBdlLIY16ZihQQTUFh55aqc5Y/view?usp=sharing" target="_blank" rel="noopener noreferrer" download class="btn btn-primary">
+              <i class="fa-solid fa-download"></i> Download
+            </a>
+            <a href="https://drive.google.com/file/d/1v-BYRVGOBdlLIY16ZihQQTUFh55aqc5Y/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+              <i class="fa-regular fa-eye"></i> View
+            </a>
           </div>
         </div>
       </div>
@@ -813,13 +840,12 @@ developer.build_solution(<span class="token-string">"Your Next Big Idea"</span>)
       <div class="container">
         <div class="section-header">
           <span class="section-tag">Get In Touch</span>
-          <h2 class="section-title">Let's Connect & Build Together</h2>
+          <h2 class="section-title">Let's Connect &amp; Build Together</h2>
           <p class="section-subtitle">
             I am currently open to full-time roles, internships, and collaborative opportunities as a Python Full Stack Developer.
           </p>
           <div class="section-line"></div>
         </div>
-
         <div class="contact-wrapper">
           <!-- Contact Info Cards -->
           <div class="contact-cards">
@@ -830,11 +856,10 @@ developer.build_solution(<span class="token-string">"Your Next Big Idea"</span>)
                 <span class="card-label">Email Address</span>
                 <a href="mailto:keshavmanchikanti@gmail.com" class="card-value">keshavmanchikanti@gmail.com</a>
               </div>
-              <button class="copy-btn" onclick="copyToClipboard('keshavmanchikanti@gmail.com', 'Email copied!')" title="Copy Email">
+              <button type="button" class="copy-btn" onclick="copyToClipboard('keshavmanchikanti@gmail.com', 'Email copied!')" title="Copy Email" aria-label="Copy Email">
                 <i class="fa-regular fa-copy"></i>
               </button>
             </div>
-
             <!-- Phone -->
             <div class="contact-card">
               <div class="contact-icon phone-icon"><i class="fa-solid fa-phone"></i></div>
@@ -842,11 +867,10 @@ developer.build_solution(<span class="token-string">"Your Next Big Idea"</span>)
                 <span class="card-label">Phone / Mobile</span>
                 <a href="tel:+919392640500" class="card-value">+91 9392640500</a>
               </div>
-              <button class="copy-btn" onclick="copyToClipboard('+919392640500', 'Phone copied!')" title="Copy Phone">
+              <button type="button" class="copy-btn" onclick="copyToClipboard('+919392640500', 'Phone copied!')" title="Copy Phone" aria-label="Copy Phone">
                 <i class="fa-regular fa-copy"></i>
               </button>
             </div>
-
             <!-- LinkedIn -->
             <div class="contact-card">
               <div class="contact-icon linkedin-icon"><i class="fa-brands fa-linkedin-in"></i></div>
@@ -854,11 +878,21 @@ developer.build_solution(<span class="token-string">"Your Next Big Idea"</span>)
                 <span class="card-label">LinkedIn Profile</span>
                 <a href="https://www.linkedin.com/in/keshav-manchikanti-a738332b1" target="_blank" rel="noopener noreferrer" class="card-value">in/keshav-manchikanti-a738332b1</a>
               </div>
-              <a href="https://www.linkedin.com/in/keshav-manchikanti-a738332b1" target="_blank" rel="noopener noreferrer" class="external-link-btn" title="Open LinkedIn">
+              <a href="https://www.linkedin.com/in/keshav-manchikanti-a738332b1" target="_blank" rel="noopener noreferrer" class="external-link-btn" title="Open LinkedIn" aria-label="Open LinkedIn">
                 <i class="fa-solid fa-arrow-up-right-from-square"></i>
               </a>
             </div>
-
+            <!-- GitHub -->
+            <div class="contact-card">
+              <div class="contact-icon github-icon"><i class="fa-brands fa-github"></i></div>
+              <div class="contact-details">
+                <span class="card-label">GitHub Profile</span>
+                <a href="https://github.com/keshavmanchikanti" target="_blank" rel="noopener noreferrer" class="card-value">keshavmanchikanti</a>
+              </div>
+              <a href="https://github.com/keshavmanchikanti" target="_blank" rel="noopener noreferrer" class="external-link-btn" title="Open GitHub" aria-label="Open GitHub">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
             <!-- Location -->
             <div class="contact-card">
               <div class="contact-icon loc-icon"><i class="fa-solid fa-location-dot"></i></div>
@@ -866,14 +900,15 @@ developer.build_solution(<span class="token-string">"Your Next Big Idea"</span>)
                 <span class="card-label">Location</span>
                 <span class="card-value">Nellore, Andhra Pradesh, India</span>
               </div>
+              <a href="https://www.google.com/maps/place/Nellore,+Andhra+Pradesh" target="_blank" rel="noopener noreferrer" class="external-link-btn" title="Open Location" aria-label="Open Location">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
             </div>
           </div>
-
           <!-- Interactive Contact Form -->
           <div class="contact-form-card">
             <h3>Send Me a Message</h3>
             <p>Have a question or want to discuss a full-stack developer opportunity? Fill out the form below!</p>
-            
             <form id="contact-form" class="contact-form">
               <div class="form-row">
                 <div class="form-group">
@@ -885,17 +920,14 @@ developer.build_solution(<span class="token-string">"Your Next Big Idea"</span>)
                   <input type="email" id="form-email" name="email" placeholder="john@example.com" required>
                 </div>
               </div>
-
               <div class="form-group">
                 <label for="form-subject">Subject</label>
                 <input type="text" id="form-subject" name="subject" placeholder="Python Full Stack Role / Project Opportunity">
               </div>
-
               <div class="form-group">
                 <label for="form-message">Message <span class="required">*</span></label>
                 <textarea id="form-message" name="message" rows="5" placeholder="Hi Keshav, I reviewed your portfolio and would like to connect regarding..." required></textarea>
               </div>
-
               <button type="submit" class="btn btn-primary submit-btn" id="submit-btn">
                 <span>Send Message</span>
                 <i class="fa-solid fa-paper-plane"></i>
@@ -906,7 +938,6 @@ developer.build_solution(<span class="token-string">"Your Next Big Idea"</span>)
       </div>
     </section>
   </main>
-
   <!-- Footer -->
   <footer class="footer">
     <div class="container footer-container">
@@ -921,7 +952,6 @@ developer.build_solution(<span class="token-string">"Your Next Big Idea"</span>)
           Building responsive, scalable, and user-friendly digital applications.
         </p>
       </div>
-
       <div class="footer-center">
         <ul class="footer-nav">
           <li><a href="#about">About</a></li>
@@ -929,30 +959,27 @@ developer.build_solution(<span class="token-string">"Your Next Big Idea"</span>)
           <li><a href="#experience">Experience</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#education">Education</a></li>
+          <li><a href="#resume">Resume</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
-
       <div class="footer-right">
         <div class="footer-socials">
           <a href="https://www.linkedin.com/in/keshav-manchikanti-a738332b1" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
           <a href="mailto:keshavmanchikanti@gmail.com" aria-label="Email" title="Email"><i class="fa-solid fa-envelope"></i></a>
           <a href="tel:+919392640500" aria-label="Phone" title="Phone"><i class="fa-solid fa-phone"></i></a>
-          <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub" title="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="https://github.com/keshavmanchikanti" target="_blank" rel="noopener noreferrer" aria-label="GitHub" title="GitHub"><i class="fa-brands fa-github"></i></a>
         </div>
-        <p class="footer-copy">&copy; <span id="current-year"></span> Keshav Manchikanti. Crafted with HTML5, CSS3 & JavaScript.</p>
+        <p class="footer-copy">&copy; <span id="current-year"></span> Keshav Manchikanti. Crafted with HTML5, CSS3 &amp; JavaScript.</p>
       </div>
     </div>
   </footer>
-
   <!-- Back to Top Floating Button -->
   <button id="back-to-top" class="back-to-top" aria-label="Back to top" title="Back to Top">
     <i class="fa-solid fa-arrow-up"></i>
   </button>
-
   <!-- Toast Notification Container -->
   <div id="toast-container" class="toast-container"></div>
-
   <!-- Custom JavaScript -->
   <script src="script.js"></script>
 </body>
