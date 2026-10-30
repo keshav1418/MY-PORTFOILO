@@ -1,0 +1,959 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Keshav Manchikanti | Python Full Stack Developer</title>
+  <meta name="description" content="Portfolio of Keshav Manchikanti - Python Full Stack Developer specializing in Python, Django, React.js, JavaScript, and REST APIs.">
+  <meta name="keywords" content="Keshav Manchikanti, Python Developer, Full Stack Developer, React, Django, Web Developer, Portfolio">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Background decorative elements -->
+  <div class="bg-gradient-orb orb-1"></div>
+  <div class="bg-gradient-orb orb-2"></div>
+  <div class="bg-gradient-orb orb-3"></div>
+
+  <!-- Header / Navigation Bar -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="brand-logo">
+        <span class="logo-bracket">&lt;</span>
+        <span class="logo-text">Keshav</span>
+        <span class="logo-accent">.dev</span>
+        <span class="logo-bracket">/&gt;</span>
+      </a>
+
+      <!-- Desktop Nav Links -->
+      <nav class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Action items -->
+      <div class="nav-actions">
+        <!-- Theme Toggle Button -->
+        <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle dark/light theme" title="Toggle Theme">
+          <i class="fa-solid fa-moon moon-icon"></i>
+          <i class="fa-solid fa-sun sun-icon"></i>
+        </button>
+
+        <a href="#contact" class="btn btn-primary nav-cta">Let's Talk</a>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle navigation menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <!-- Availability Badge -->
+          <div class="badge-pill">
+            <span class="pulse-dot"></span>
+            <span>Open to Opportunities &bull; Fresher</span>
+          </div>
+
+          <h1 class="hero-title">
+            Hi, I'm <span class="gradient-text">Keshav Manchikanti</span>
+          </h1>
+
+          <div class="hero-subtitle-wrapper">
+            <span class="role-prefix">I am a </span>
+            <span class="typed-text" id="typed-text"></span>
+            <span class="cursor">&nbsp;</span>
+          </div>
+
+          <p class="hero-description">
+            Passionate <strong>Python Full Stack Developer</strong> based in Hyderabad, India.
+            Equipped with strong expertise in Python, Django, React.js, and modern web standards. 
+            Focused on crafting responsive, scalable, and user-centric digital experiences.
+          </p>
+
+          <!-- Core Tech Stack Pills -->
+          <div class="hero-tech-stack">
+            <span class="tech-tag"><i class="fa-brands fa-python"></i> Python</span>
+            <span class="tech-tag"><i class="fa-brands fa-react"></i> React.js</span>
+            <span class="tech-tag"><i class="fa-solid fa-server"></i> Django</span>
+            <span class="tech-tag"><i class="fa-brands fa-js"></i> JavaScript</span>
+            <span class="tech-tag"><i class="fa-solid fa-database"></i> MySQL</span>
+            <span class="tech-tag"><i class="fa-solid fa-network-wired"></i> REST APIs</span>
+          </div>
+
+          <!-- Hero Buttons -->
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              <i class="fa-solid fa-rocket"></i> View Projects
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <i class="fa-regular fa-envelope"></i> Contact Me
+            </a>
+            <a href="https://www.linkedin.com/in/keshav-manchikanti-a738332b1" target="_blank" rel="noopener noreferrer" class="btn btn-outline" title="LinkedIn Profile">
+              <i class="fa-brands fa-linkedin"></i> LinkedIn
+            </a>
+            <a href="https://github.com/keshavmanchikanti" target="_blank" rel="noopener noreferrer" class="btn btn-outline" title="GitHub Profile">
+              <i class="fa-brands fa-github"></i> GitHub
+            </a>
+          </div>
+
+          <!-- Hero Quick Highlights -->
+          <div class="hero-quick-stats">
+            <div class="stat-card">
+              <span class="stat-num">B.Tech</span>
+              <span class="stat-label">Computer Science (2022-26)</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-card">
+              <span class="stat-num">3+</span>
+              <span class="stat-label">Industry Certifications</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-card">
+              <span class="stat-num">Full Stack</span>
+              <span class="stat-label">Python & Web Dev Intern</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="code-window-card">
+            <div class="window-header">
+              <div class="window-dots">
+                <span class="dot dot-red"></span>
+                <span class="dot dot-yellow"></span>
+                <span class="dot dot-green"></span>
+              </div>
+              <div class="window-title">developer_profile.py</div>
+              <div class="window-action"><i class="fa-solid fa-copy copy-code-btn" id="copy-code-btn" title="Copy snippet"></i></div>
+            </div>
+            <div class="window-body">
+              <pre><code class="python-snippet"><span class="token-keyword">class</span> <span class="token-class">FullStackDeveloper</span>:
+    <span class="token-keyword">def</span> <span class="token-function">__init__</span>(<span class="token-builtin">self</span>):
+        <span class="token-builtin">self</span>.name = <span class="token-string">"Keshav Manchikanti"</span>
+        <span class="token-builtin">self</span>.role = <span class="token-string">"Python Full Stack Dev"</span>
+        <span class="token-builtin">self</span>.location = <span class="token-string">"Hyderabad, Telangana, India"</span>
+        <span class="token-builtin">self</span>.status = <span class="token-string">"Open to Opportunities"</span>
+        <span class="token-builtin">self</span>.core_stack = [
+            <span class="token-string">"Python"</span>, <span class="token-string">"Django"</span>, <span class="token-string">"React"</span>,
+            <span class="token-string">"JavaScript"</span>, <span class="token-string">"SQL"</span>, <span class="token-string">"APIs"</span>
+        ]
+
+    <span class="token-keyword">def</span> <span class="token-function">build_solution</span>(<span class="token-builtin">self</span>, idea):
+        <span class="token-keyword">return</span> {
+            <span class="token-string">"clean_architecture"</span>: <span class="token-keyword">True</span>,
+            <span class="token-string">"scalable_backend"</span>: <span class="token-keyword">True</span>,
+            <span class="token-string">"intuitive_ui"</span>: <span class="token-keyword">True</span>
+        }
+
+<span class="token-comment"># Ready to contribute & innovate!</span>
+developer = <span class="token-class">FullStackDeveloper</span>()
+developer.build_solution(<span class="token-string">"Your Next Big Idea"</span>)</code></pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">About Me</span>
+          <h2 class="section-title">Driven by Curiosity, Powered by Code</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card main-about">
+            <div class="about-card-icon">
+              <i class="fa-solid fa-user-astronaut"></i>
+            </div>
+            <h3>Who I Am</h3>
+            <p>
+              I am a passionate <strong>Python Full Stack Developer</strong> with strong foundational and practical knowledge of modern web engineering. 
+              My development philosophy combines clean, object-oriented back-end logic with intuitive, responsive front-end designs.
+            </p>
+            <p>
+              Having completed a hands-on Development Internship at <strong>ExcelR EdTech</strong> in collaboration with <strong>APSCHE</strong>, 
+              I have experience collaborating in Git-driven team environments, conducting peer code reviews, and delivering clean, maintainable software.
+            </p>
+            <div class="contact-info-list">
+              <div class="info-item">
+                <i class="fa-solid fa-location-dot"></i>
+                <span><strong>Location:</strong> Nellore, Andhra Pradesh, India</span>
+              </div>
+              <div class="info-item">
+                <i class="fa-solid fa-envelope"></i>
+                <span><strong>Email:</strong> <a href="mailto:keshavmanchikanti@gmail.com">keshavmanchikanti@gmail.com</a></span>
+              </div>
+              <div class="info-item">
+                <i class="fa-solid fa-phone"></i>
+                <span><strong>Phone:</strong> <a href="tel:+919392640500">+91 9392640500</a></span>
+              </div>
+              <div class="info-item">
+                <i class="fa-brands fa-linkedin"></i>
+                <span><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/keshav-manchikanti-a738332b1" target="_blank" rel="noopener noreferrer">keshav-manchikanti-a738332b1</a></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-highlights-grid">
+            <div class="highlight-card">
+              <div class="highlight-icon"><i class="fa-solid fa-layer-group"></i></div>
+              <h4>Full-Stack Mastery</h4>
+              <p>Proficient in bridging front-end aesthetics (HTML/CSS/JS/React) with robust back-end systems (Python/Django).</p>
+            </div>
+            <div class="highlight-card">
+              <div class="highlight-icon"><i class="fa-solid fa-bolt"></i></div>
+              <h4>API & Database Savvy</h4>
+              <p>Experienced in architecting RESTful APIs, handling asynchronous data flows, and optimizing SQL/MySQL queries.</p>
+            </div>
+            <div class="highlight-card">
+              <div class="highlight-icon"><i class="fa-solid fa-code-branch"></i></div>
+              <h4>Git & Clean Code</h4>
+              <p>Committed to OOP principles, version control workflows, agile communication, and automated testing practices.</p>
+            </div>
+            <div class="highlight-card">
+              <div class="highlight-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+              <h4>Continuous Learner</h4>
+              <p>Certified in Cisco Python Essentials & Deloitte Tech Simulation; actively exploring cutting-edge tools.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Technical Competence</span>
+          <h2 class="section-title">Skills & Technologies</h2>
+          <p class="section-subtitle">A breakdown of my technical stack across front-end, back-end, and database systems.</p>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Skill Category: Backend & Core -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon back-icon">
+                <i class="fa-brands fa-python"></i>
+              </div>
+              <div>
+                <h3>Back-End & Core</h3>
+                <span class="category-sub">Server-side logic & architecture</span>
+              </div>
+            </div>
+            <div class="skill-items">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name"><i class="fa-brands fa-python"></i> Python</span>
+                  <span class="skill-level">Advanced</span>
+                </div>
+                <div class="skill-bar"><div class="skill-progress" style="width: 90%;"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name"><i class="fa-solid fa-shield-halved"></i> Django</span>
+                  <span class="skill-level">Proficient</span>
+                </div>
+                <div class="skill-bar"><div class="skill-progress" style="width: 82%;"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name"><i class="fa-solid fa-cloud-arrow-down"></i> RESTful APIs</span>
+                  <span class="skill-level">Proficient</span>
+                </div>
+                <div class="skill-bar"><div class="skill-progress" style="width: 85%;"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name"><i class="fa-solid fa-cubes"></i> Object-Oriented Programming (OOP)</span>
+                  <span class="skill-level">Advanced</span>
+                </div>
+                <div class="skill-bar"><div class="skill-progress" style="width: 88%;"></div></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill Category: Frontend -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon front-icon">
+                <i class="fa-brands fa-react"></i>
+              </div>
+              <div>
+                <h3>Front-End Development</h3>
+                <span class="category-sub">Interactive & responsive client side</span>
+              </div>
+            </div>
+            <div class="skill-items">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name"><i class="fa-brands fa-react"></i> React.js</span>
+                  <span class="skill-level">Proficient</span>
+                </div>
+                <div class="skill-bar"><div class="skill-progress" style="width: 80%;"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name"><i class="fa-brands fa-js"></i> JavaScript (ES6+)</span>
+                  <span class="skill-level">Proficient</span>
+                </div>
+                <div class="skill-bar"><div class="skill-progress" style="width: 85%;"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name"><i class="fa-brands fa-html5"></i> HTML5 & Semantic Web</span>
+                  <span class="skill-level">Expert</span>
+                </div>
+                <div class="skill-bar"><div class="skill-progress" style="width: 95%;"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name"><i class="fa-brands fa-css3-alt"></i> CSS3 & SASS / SCSS</span>
+                  <span class="skill-level">Advanced</span>
+                </div>
+                <div class="skill-bar"><div class="skill-progress" style="width: 90%;"></div></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill Category: Database & Tools -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon tool-icon">
+                <i class="fa-solid fa-database"></i>
+              </div>
+              <div>
+                <h3>Database & Workflow</h3>
+                <span class="category-sub">Data storage, versioning & team tools</span>
+              </div>
+            </div>
+            <div class="skill-items">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name"><i class="fa-solid fa-database"></i> SQL / MySQL</span>
+                  <span class="skill-level">Proficient</span>
+                </div>
+                <div class="skill-bar"><div class="skill-progress" style="width: 85%;"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name"><i class="fa-brands fa-git-alt"></i> Git & GitHub Version Control</span>
+                  <span class="skill-level">Advanced</span>
+                </div>
+                <div class="skill-bar"><div class="skill-progress" style="width: 88%;"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name"><i class="fa-solid fa-code-compare"></i> Code Reviews & Debugging</span>
+                  <span class="skill-level">Proficient</span>
+                </div>
+                <div class="skill-bar"><div class="skill-progress" style="width: 84%;"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name"><i class="fa-solid fa-brain"></i> Problem Solving & Algorithms</span>
+                  <span class="skill-level">Advanced</span>
+                </div>
+                <div class="skill-bar"><div class="skill-progress" style="width: 86%;"></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Skill Badges Cloud -->
+        <div class="skills-cloud">
+          <!-- Programming Languages -->
+          <span class="skill-pill"><i class="fa-brands fa-python"></i> Python 3</span>
+          <span class="skill-pill"><i class="fa-brands fa-js"></i> JavaScript (ES6+)</span>
+
+          <!-- Back-End & APIs -->
+          <span class="skill-pill"><i class="fa-solid fa-server"></i> Django</span>
+          <span class="skill-pill"><i class="fa-solid fa-flask"></i> Flask</span>
+          <span class="skill-pill"><i class="fa-solid fa-network-wired"></i> RESTful API Design & Integration</span>
+
+          <!-- Front-End -->
+          <span class="skill-pill"><i class="fa-brands fa-html5"></i> HTML5</span>
+          <span class="skill-pill"><i class="fa-brands fa-css3-alt"></i> CSS3</span>
+          <span class="skill-pill"><i class="fa-brands fa-react"></i> React.js</span>
+          <span class="skill-pill"><i class="fa-brands fa-bootstrap"></i> Bootstrap</span>
+          <span class="skill-pill"><i class="fa-brands fa-sass"></i> SASS</span>
+          <span class="skill-pill"><i class="fa-solid fa-mobile-screen"></i> Responsive Design</span>
+
+          <!-- Databases -->
+          <span class="skill-pill"><i class="fa-solid fa-database"></i> MySQL</span>
+          <span class="skill-pill"><i class="fa-solid fa-database"></i> SQL</span>
+
+          <!-- Generative AI & LLMs -->
+          <span class="skill-pill"><i class="fa-solid fa-wand-magic-sparkles"></i> Prompt-Driven Automation</span>
+          <span class="skill-pill"><i class="fa-solid fa-robot"></i> LLM-Integrated Applications</span>
+          <span class="skill-pill"><i class="fa-solid fa-diagram-project"></i> AI Agent Workflows (n8n)</span>
+
+          <!-- Tools & Practices -->
+          <span class="skill-pill"><i class="fa-brands fa-git-alt"></i> Git</span>
+          <span class="skill-pill"><i class="fa-brands fa-github"></i> GitHub</span>
+          <span class="skill-pill"><i class="fa-solid fa-laptop-code"></i> VS Code</span>
+          <span class="skill-pill"><i class="fa-solid fa-book-open"></i> Jupyter Notebook</span>
+          <span class="skill-pill"><i class="fa-solid fa-diagram-project"></i> n8n</span>
+          <span class="skill-pill"><i class="fa-solid fa-microchip"></i> AI Coding Assistants</span>
+          <span class="skill-pill"><i class="fa-solid fa-check-double"></i> Clean Code</span>
+          
+          <!-- Soft Skills -->
+          <span class="skill-pill"><i class="fa-solid fa-comments"></i> English Communication</span>
+          <span class="skill-pill"><i class="fa-solid fa-magnifying-glass"></i> Attention to Detail</span>
+          <span class="skill-pill"><i class="fa-solid fa-people-group"></i> Teamwork</span>
+          <span class="skill-pill"><i class="fa-solid fa-clock"></i> Time Management</span>
+          <span class="skill-pill"><i class="fa-solid fa-lightbulb"></i> Problem Solving</span>
+          <span class="skill-pill"><i class="fa-solid fa-bug"></i> Debugging</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="section experience-section" id="experience">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Career Path</span>
+          <h2 class="section-title">Work Experience</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="timeline">
+          <!-- Timeline Item: ExcelR EdTech -->
+          <div class="timeline-item">
+            <div class="timeline-marker">
+              <i class="fa-solid fa-briefcase"></i>
+            </div>
+            <div class="timeline-card">
+              <div class="timeline-card-header">
+                <div>
+                  <span class="timeline-badge">Internship</span>
+                  <h3 class="role-title">Development Intern</h3>
+                  <h4 class="company-name">ExcelR EdTech Pvt. Ltd.</h4>
+                  <p class="company-collab"><i class="fa-solid fa-handshake"></i> Program organized in collaboration with <strong>APSCHE</strong> (Andhra Pradesh State Council of Higher Education)</p>
+                </div>
+                <div class="timeline-date">
+                  <i class="fa-regular fa-calendar"></i> May 2025 – July 2025
+                  <span class="timeline-duration">(3 months)</span>
+                </div>
+              </div>
+
+              <div class="timeline-body">
+                <ul class="timeline-points">
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i>
+                    <span>Built comprehensive full-stack applications in <strong>Python</strong>, applying rigorous <strong>object-oriented programming (OOP)</strong> and clean coding standards across both front-end and back-end architectural layers.</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i>
+                    <span>Collaborated closely with cross-functional peers on modular solution design, iterative feature integration, and debugging using <strong>Git-based version control</strong> workflows.</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i>
+                    <span>Mirrored modern AI-assisted software development practices to accelerate bug resolution and enhance developer productivity.</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i>
+                    <span>Actively participated in daily problem-solving standups and peer code reviews, ensuring the delivery of scalable, maintainable, and production-ready code.</span>
+                  </li>
+                </ul>
+
+                <div class="timeline-tags">
+                  <span class="tag">Python</span>
+                  <span class="tag">OOP</span>
+                  <span class="tag">Full-Stack Architecture</span>
+                  <span class="tag">Git & GitHub</span>
+                  <span class="tag">Code Reviews</span>
+                  <span class="tag">APSCHE Initiative</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Featured Work</span>
+          <h2 class="section-title">Projects Showcase</h2>
+          <p class="section-subtitle">Real-world applications built with Python, Flask, Django, React, MySQL, and machine learning.</p>
+          <div class="section-line"></div>
+        </div>
+
+        <!-- Project Filter Buttons -->
+        <div class="project-filters">
+          <button class="filter-btn active" data-filter="all">All Projects</button>
+          <button class="filter-btn" data-filter="fullstack">Full Stack</button>
+          <button class="filter-btn" data-filter="python">Python & Django</button>
+          <button class="filter-btn" data-filter="frontend">Frontend / React</button>
+        </div>
+
+        <!-- Projects Grid -->
+        <div class="projects-grid">
+
+          <!-- Project 1: AI Call Assistant -->
+          <div class="project-card" data-category="python">
+            <div class="project-image-wrapper">
+              <div class="project-mockup gradient-mockup-1">
+                <div class="mockup-content">
+                  <i class="fa-solid fa-phone-volume mockup-icon"></i>
+                  <span>AI Call Assistant</span>
+                </div>
+              </div>
+              <div class="project-overlay">
+                <a href="#contact" class="overlay-link" title="Request Live Demo"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="overlay-link" title="Source Code"><i class="fa-brands fa-github"></i></a>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-category-tag">Voice-Based Sales & Booking Agent</div>
+              <h3 class="project-title">AI Call Assistant</h3>
+              <p class="project-description">
+                A Python/Flask backend integrated with the Twilio API to automate outbound customer support and demo-booking calls, with multilingual (English and Telugu) AI conversations and RESTful endpoints connecting external services.
+              </p>
+              <div class="project-tech-tags">
+                <span>Python</span>
+                <span>Flask</span>
+                <span>Twilio API</span>
+                <span>NLP</span>
+                <span>REST APIs</span>
+              </div>
+              <div class="project-footer">
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="project-link">
+                  <i class="fa-brands fa-github"></i> Codebase
+                </a>
+                <a href="#contact" class="project-link highlight-link">
+                  <i class="fa-solid fa-play"></i> View Details
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2: Coffee Shop Web Application -->
+          <div class="project-card" data-category="fullstack frontend python">
+            <div class="project-image-wrapper">
+              <div class="project-mockup gradient-mockup-2">
+                <div class="mockup-content">
+                  <i class="fa-solid fa-mug-hot mockup-icon"></i>
+                  <span>Coffee Shop Web App</span>
+                </div>
+              </div>
+              <div class="project-overlay">
+                <a href="#contact" class="overlay-link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="overlay-link"><i class="fa-brands fa-github"></i></a>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-category-tag">Full Stack Web App</div>
+              <h3 class="project-title">Coffee Shop Web Application</h3>
+              <p class="project-description">
+                A responsive, mobile-friendly coffee shop app with menu browsing, filtering, and cart-based ordering. Built with reusable React components and a Django backend with a SQL database managing menu items and orders.
+              </p>
+              <div class="project-tech-tags">
+                <span>React.js</span>
+                <span>Django</span>
+                <span>Python</span>
+                <span>SQL</span>
+                <span>HTML5 & CSS3</span>
+              </div>
+              <div class="project-footer">
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="project-link">
+                  <i class="fa-brands fa-github"></i> Codebase
+                </a>
+                <a href="#contact" class="project-link highlight-link">
+                  <i class="fa-solid fa-play"></i> View Details
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3: Network Traffic Anomaly Detection System -->
+          <div class="project-card" data-category="python">
+            <div class="project-image-wrapper">
+              <div class="project-mockup gradient-mockup-3">
+                <div class="mockup-content">
+                  <i class="fa-solid fa-shield-halved mockup-icon"></i>
+                  <span>Anomaly Detection System</span>
+                </div>
+              </div>
+              <div class="project-overlay">
+                <a href="#contact" class="overlay-link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="overlay-link"><i class="fa-brands fa-github"></i></a>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-category-tag">Machine Learning</div>
+              <h3 class="project-title">Network Traffic Anomaly Detection System</h3>
+              <p class="project-description">
+                An object-oriented Python ML system that detects malicious network traffic. Compared Isolation Forest, XGBoost, and LightGBM to find the best performer, and improved accuracy using SMOTE for class imbalance and feature engineering.
+              </p>
+              <div class="project-tech-tags">
+                <span>Python</span>
+                <span>Scikit-learn</span>
+                <span>XGBoost</span>
+                <span>LightGBM</span>
+                <span>SMOTE</span>
+              </div>
+              <div class="project-footer">
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="project-link">
+                  <i class="fa-brands fa-github"></i> Codebase
+                </a>
+                <a href="#contact" class="project-link highlight-link">
+                  <i class="fa-solid fa-play"></i> View Details
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 4: AI Tool Library -->
+          <div class="project-card" data-category="fullstack frontend">
+            <div class="project-image-wrapper">
+              <div class="project-mockup gradient-mockup-1">
+                <div class="mockup-content">
+                  <i class="fa-solid fa-robot mockup-icon"></i>
+                  <span>AI Tool Library</span>
+                </div>
+              </div>
+              <div class="project-overlay">
+                <a href="#contact" class="overlay-link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="overlay-link"><i class="fa-brands fa-github"></i></a>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-category-tag">AI Tools Directory</div>
+              <h3 class="project-title">AI Tool Library</h3>
+              <p class="project-description">
+                A web directory of AI agent tools with search and category filtering, built with a React frontend and a MySQL database that stores a catalog of 125 tools.
+              </p>
+              <div class="project-tech-tags">
+                <span>React.js</span>
+                <span>MySQL</span>
+                <span>JavaScript</span>
+                <span>CSS3</span>
+                <span>Responsive Design</span>
+                <span>HTML5</span>
+              </div>
+              <div class="project-footer">
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="project-link">
+                  <i class="fa-brands fa-github"></i> Codebase
+                </a>
+                <a href="#contact" class="project-link highlight-link">
+                  <i class="fa-solid fa-play"></i> View Details
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 5: Portfolio Website -->
+          <div class="project-card" data-category="frontend">
+            <div class="project-image-wrapper">
+              <div class="project-mockup gradient-mockup-2">
+                <div class="mockup-content">
+                  <i class="fa-solid fa-laptop-code mockup-icon"></i>
+                  <span>Portfolio Website</span>
+                </div>
+              </div>
+              <div class="project-overlay">
+                <a href="#contact" class="overlay-link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="overlay-link"><i class="fa-brands fa-github"></i></a>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-category-tag">Personal Website</div>
+              <h3 class="project-title">Developer Portfolio Website</h3>
+              <p class="project-description">
+                A responsive, multi-section personal portfolio showcasing my projects, skills, and contact details, with a filterable project grid and a clean, mobile-friendly layout.
+              </p>
+              <div class="project-tech-tags">
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>JavaScript</span>
+                <span>Responsive Design</span>
+              </div>
+              <div class="project-footer">
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="project-link">
+                  <i class="fa-brands fa-github"></i> Codebase
+                </a>
+                <a href="#contact" class="project-link highlight-link">
+                  <i class="fa-solid fa-play"></i> View Details
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Education & Certifications Section -->
+    <section class="section edu-cert-section" id="education">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Credentials & Qualifications</span>
+          <h2 class="section-title">Education & Certifications</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="edu-cert-grid">
+          <!-- Education Column -->
+          <div class="edu-column">
+            <h3 class="column-title"><i class="fa-solid fa-user-graduate"></i> Formal Education</h3>
+            
+            <div class="credential-card edu-card">
+              <div class="credential-header">
+                <div class="credential-icon">
+                  <i class="fa-solid fa-building-columns"></i>
+                </div>
+                <div class="credential-titles">
+                  <span class="badge-accent">Undergraduate Degree</span>
+                  <h4>Bachelor of Technology (B.Tech)</h4>
+                  <h5 class="institution">Geethanjali Institute of Science and Technology</h5>
+                  <p class="specialization"><i class="fa-solid fa-microchip"></i> Computer Science and Engineering</p>
+                </div>
+              </div>
+              <div class="credential-body">
+                <div class="credential-meta">
+                  <span><i class="fa-regular fa-calendar-days"></i> June 2022 – May 2026</span>
+                  <span><i class="fa-solid fa-location-dot"></i> Nellore, Andhra Pradesh</span>
+                </div>
+                <p class="credential-desc">
+                  Focused coursework on Data Structures & Algorithms, Object-Oriented Software Engineering, Database Management Systems (DBMS), Web Technologies, and Operating Systems.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Certifications Column -->
+          <div class="cert-column">
+            <h3 class="column-title"><i class="fa-solid fa-award"></i> Professional Certifications</h3>
+
+            <div class="certifications-list">
+              <!-- Cert 1 -->
+              <div class="credential-card cert-card">
+                <div class="cert-item-inner">
+                  <div class="cert-icon-box cert-deloitte">
+                    <i class="fa-solid fa-briefcase"></i>
+                  </div>
+                  <div class="cert-content">
+                    <span class="cert-issuer">Deloitte Australia &bull; Forage</span>
+                    <h4>Technology Job Simulation</h4>
+                    <p>Demonstrated practical competencies in technology consulting, systems architecture evaluation, and technology solution analysis.</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Cert 2 -->
+              <div class="credential-card cert-card">
+                <div class="cert-item-inner">
+                  <div class="cert-icon-box cert-python">
+                    <i class="fa-brands fa-python"></i>
+                  </div>
+                  <div class="cert-content">
+                    <span class="cert-issuer">Python Institute &bull; Cisco Networking Academy</span>
+                    <h4>Python Essentials 1</h4>
+                    <p>Core programming fundamentals, syntax, control flows, data collections, and foundational algorithmic problem solving.</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Cert 3 -->
+              <div class="credential-card cert-card">
+                <div class="cert-item-inner">
+                  <div class="cert-icon-box cert-python">
+                    <i class="fa-brands fa-python"></i>
+                  </div>
+                  <div class="cert-content">
+                    <span class="cert-issuer">Python Institute &bull; Cisco Networking Academy</span>
+                    <h4>Python Essentials 2</h4>
+                    <p>Advanced Python techniques, Object-Oriented Programming (classes, inheritance, polymorphism), modules, packages, and exception handling.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Get In Touch</span>
+          <h2 class="section-title">Let's Connect & Build Together</h2>
+          <p class="section-subtitle">
+            I am currently open to full-time roles, internships, and collaborative opportunities as a Python Full Stack Developer.
+          </p>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="contact-wrapper">
+          <!-- Contact Info Cards -->
+          <div class="contact-cards">
+            <!-- Email -->
+            <div class="contact-card">
+              <div class="contact-icon email-icon"><i class="fa-solid fa-envelope"></i></div>
+              <div class="contact-details">
+                <span class="card-label">Email Address</span>
+                <a href="mailto:keshavmanchikanti@gmail.com" class="card-value">keshavmanchikanti@gmail.com</a>
+              </div>
+              <button class="copy-btn" onclick="copyToClipboard('keshavmanchikanti@gmail.com', 'Email copied!')" title="Copy Email">
+                <i class="fa-regular fa-copy"></i>
+              </button>
+            </div>
+
+            <!-- Phone -->
+            <div class="contact-card">
+              <div class="contact-icon phone-icon"><i class="fa-solid fa-phone"></i></div>
+              <div class="contact-details">
+                <span class="card-label">Phone / Mobile</span>
+                <a href="tel:+919392640500" class="card-value">+91 9392640500</a>
+              </div>
+              <button class="copy-btn" onclick="copyToClipboard('+919392640500', 'Phone copied!')" title="Copy Phone">
+                <i class="fa-regular fa-copy"></i>
+              </button>
+            </div>
+
+            <!-- LinkedIn -->
+            <div class="contact-card">
+              <div class="contact-icon linkedin-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+              <div class="contact-details">
+                <span class="card-label">LinkedIn Profile</span>
+                <a href="https://www.linkedin.com/in/keshav-manchikanti-a738332b1" target="_blank" rel="noopener noreferrer" class="card-value">in/keshav-manchikanti-a738332b1</a>
+              </div>
+              <a href="https://www.linkedin.com/in/keshav-manchikanti-a738332b1" target="_blank" rel="noopener noreferrer" class="external-link-btn" title="Open LinkedIn">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+
+            <!-- Location -->
+            <div class="contact-card">
+              <div class="contact-icon loc-icon"><i class="fa-solid fa-location-dot"></i></div>
+              <div class="contact-details">
+                <span class="card-label">Location</span>
+                <span class="card-value">Nellore, Andhra Pradesh, India</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Interactive Contact Form -->
+          <div class="contact-form-card">
+            <h3>Send Me a Message</h3>
+            <p>Have a question or want to discuss a full-stack developer opportunity? Fill out the form below!</p>
+            
+            <form id="contact-form" class="contact-form">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="form-name">Your Name <span class="required">*</span></label>
+                  <input type="text" id="form-name" name="name" placeholder="John Doe" required>
+                </div>
+                <div class="form-group">
+                  <label for="form-email">Your Email <span class="required">*</span></label>
+                  <input type="email" id="form-email" name="email" placeholder="john@example.com" required>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="form-subject">Subject</label>
+                <input type="text" id="form-subject" name="subject" placeholder="Python Full Stack Role / Project Opportunity">
+              </div>
+
+              <div class="form-group">
+                <label for="form-message">Message <span class="required">*</span></label>
+                <textarea id="form-message" name="message" rows="5" placeholder="Hi Keshav, I reviewed your portfolio and would like to connect regarding..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary submit-btn" id="submit-btn">
+                <span>Send Message</span>
+                <i class="fa-solid fa-paper-plane"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-left">
+        <a href="#hero" class="brand-logo footer-logo">
+          <span class="logo-bracket">&lt;</span>
+          <span class="logo-text">Keshav</span>
+          <span class="logo-accent">.dev</span>
+          <span class="logo-bracket">/&gt;</span>
+        </a>
+        <p class="footer-tagline">
+          Building responsive, scalable, and user-friendly digital applications.
+        </p>
+      </div>
+
+      <div class="footer-center">
+        <ul class="footer-nav">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-right">
+        <div class="footer-socials">
+          <a href="https://www.linkedin.com/in/keshav-manchikanti-a738332b1" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="mailto:keshavmanchikanti@gmail.com" aria-label="Email" title="Email"><i class="fa-solid fa-envelope"></i></a>
+          <a href="tel:+919392640500" aria-label="Phone" title="Phone"><i class="fa-solid fa-phone"></i></a>
+          <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub" title="GitHub"><i class="fa-brands fa-github"></i></a>
+        </div>
+        <p class="footer-copy">&copy; <span id="current-year"></span> Keshav Manchikanti. Crafted with HTML5, CSS3 & JavaScript.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Floating Button -->
+  <button id="back-to-top" class="back-to-top" aria-label="Back to top" title="Back to Top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- Toast Notification Container -->
+  <div id="toast-container" class="toast-container"></div>
+
+  <!-- Custom JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
