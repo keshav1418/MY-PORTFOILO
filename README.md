@@ -25,7 +25,7 @@ I am a Python Full Stack Developer and aspiring Software Engineer interested in 
 
 ## 🌐 Live Demo
 
-[View My Portfolio](https://YOUR-USERNAME.github.io/portfolio/)
+[View My Portfolio] ( https://keshav1418.github.io/MY-PORTFOILO/ )
 
 ## 📂 Project Structure
 
@@ -48,12 +48,11 @@ git clone https://github.com/YOUR-USERNAME/portfolio.git
 2. Open the project folder.
 3. Open `index.html` in your browser.
 
-## 📬 Connect With Me
-
-- GitHub: https://github.com/YOUR-USERNAME
-- LinkedIn: Add your LinkedIn profile URL
-
----
+## Author
+**Keshav**
+- GitHub: (https://github.com/keshav1418)
+- LinkedIn: https://www.linkedin.com/in/keshav-manchikanti-a738332b1/
+- portfoilo : https://keshav1418.github.io/MY-PORTFOILO/
 
 ⭐ If you like my portfolio, feel free to explore my repositories!
 
